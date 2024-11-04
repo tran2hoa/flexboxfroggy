@@ -1,6 +1,6 @@
 var game = {
   colorblind: (localStorage.colorblind && JSON.parse(localStorage.colorblind)) || 'false',
-  language: window.location.hash.substring(1) || 'vn',
+  language: window.location.hash.substring(1) || 'vi',
   difficulty: 'easy',
   level: parseInt(localStorage.level, 10) || 0,
   answers: (localStorage.answers && JSON.parse(localStorage.answers)) || {},
